@@ -56,15 +56,63 @@
 		6353508B250A55AC00DA710A /* Table View Aplication */ = {
 			isa = PBXGroup;
 			children = (
-				6353508C250A55AC00DA710A /* AppDelegate.swift */,
-				6353508E250A55AC00DA710A /* SceneDelegate.swift */,
-				63535090250A55AC00DA710A /* ViewController.swift */,
-				63535092250A55AC00DA710A /* Main.storyboard */,
-				63535095250A55B300DA710A /* Assets.xcassets */,
-				63535097250A55B300DA710A /* LaunchScreen.storyboard */,
-				6353509A250A55B300DA710A /* Info.plist */,
+				635350A0250A563C00DA710A /* ViewControllers */,
+				635350A1250A573800DA710A /* Stotyboards */,
+				635350A2250A574800DA710A /* Models */,
+				635350A5250A577900DA710A /* Styles */,
+				635350A4250A575B00DA710A /* Sources */,
+				635350A3250A574F00DA710A /* SupportingFiles */,
 			);
 			path = "Table View Aplication";
+			sourceTree = "<group>";
+		};
+		635350A0250A563C00DA710A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63535090250A55AC00DA710A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		635350A1250A573800DA710A /* Stotyboards */ = {
+			isa = PBXGroup;
+			children = (
+				63535092250A55AC00DA710A /* Main.storyboard */,
+				63535097250A55B300DA710A /* LaunchScreen.storyboard */,
+			);
+			path = Stotyboards;
+			sourceTree = "<group>";
+		};
+		635350A2250A574800DA710A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		635350A3250A574F00DA710A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6353509A250A55B300DA710A /* Info.plist */,
+				6353508C250A55AC00DA710A /* AppDelegate.swift */,
+				6353508E250A55AC00DA710A /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		635350A4250A575B00DA710A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				63535095250A55B300DA710A /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		635350A5250A577900DA710A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P87Y98S683;
-				INFOPLIST_FILE = "Table View Aplication/Info.plist";
+				INFOPLIST_FILE = "Table View Aplication/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P87Y98S683;
-				INFOPLIST_FILE = "Table View Aplication/Info.plist";
+				INFOPLIST_FILE = "Table View Aplication/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
